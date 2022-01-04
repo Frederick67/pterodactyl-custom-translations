@@ -1,0 +1,135 @@
+<?php
+
+return [
+
+  // English translated by Gigabait
+
+  'us' => 'English',
+  'id' => 'Indonesian',
+  'hu' => 'Hungarian',
+  'jp' => 'Japanese',
+  'cz' => 'Czech',
+  'de' => 'Deutsch',
+  'nl' => 'Dutch',
+  'es' => 'Spanish',
+  'pt' => 'Portuguese',
+  'fr' => 'French',
+
+  
+  'title' => 'Billing',
+  'connecting' => 'Connecting...',
+  
+  // Nav Pages
+  'billing_page' => 'Billing',
+  'balance_page' => 'Balance',
+  'cart_page' => 'Cart',
+  'plan_page' => 'My Plans',
+  'servers_page' => 'Servers',
+  'console_page' => 'Console',
+  'files_page' => 'Files',
+  'databases_page' => 'Databases',
+  'shedulers_page' => 'Schedules',
+  'users_page' => 'Users',
+  'backups_page' => 'Backups',
+  'network_page' => 'Network',
+  'startup_page' => 'Startup',
+  'settings_page' => 'Settings',
+  'manage_page' => 'Manage',
+  'account_page' => 'Account',
+  'admin_page' => 'Admin',
+  'out_page' => 'Log Out',
+  
+  // Account
+  'account_balance' => 'Account Balance',
+  'paypal' => 'PayPal',
+  'stripe' => 'Stripe',
+  'billing_information' => 'Billing information',
+  'amount_info' => 'Please enter the amount you wish to add',
+  'card_holder' => 'Card Holder Name',
+  'email' => 'Email',
+  'caed_number' => 'Card Number',
+  'cvv' => 'CVV',
+  'pay_now' => 'Pay now',
+  'username' => 'Username',
+  'address' => 'Address',
+  'first_name' => 'First name',
+  'last_name' => 'Last name',
+  'city' => 'City',
+  'country' => 'Country',
+  'postal_code' => 'Postal code',
+  'update_billing_nformation' => 'Update Billing Information',
+  'edit_account' => 'Edit Account',
+  'account_api' => 'Account API',
+  'billing_balance' => 'Billing Balance',
+  'admin_area' => 'Admin Area',
+  'dark_mode' => 'Dark Mode',
+  'logout' => 'Logout',
+
+  // Cart
+  'checkout' => 'Checkout',
+  'game' => 'Game',
+  'billed' => 'Billed',
+  'actions' => 'Actions',
+  'empty_cart' => 'Cart is emtpy.',
+  'place_order' => 'Place Order',
+  'plan_name' => 'Plan Name',
+  'total_order' => 'Total Order: ',
+  'cancel' => 'Cancel',
+  'confirm' => 'Confirm',
+  'confirm_place_order_info' => 'After hitting "Confirm Order", your order will be placed and the amount will be reducted from your current balance.',
+
+  // Billing
+  'date_label' => 'Date',
+  'price_label' => 'Price',
+  'view_plan' => 'View Plans',
+  'view_invoices' => 'Viewing Invoices',
+  'extend' => 'Extend',
+  'days_for' => 'days for',
+  'deleted' => 'deleted',
+  'pay' => 'Pay',
+  'are_you_sure' => 'Are you sure?',
+  'remove' => 'Remove',
+  'close' => 'Close',
+
+  // Plans
+  'plans_labal' => 'Plans',
+  'add_to_cart' => 'Add to Cart',
+  'description' => 'Description',
+  'monthly' => 'Monthly',
+  'year' => 'Year',
+  'quarterly' => 'Quarterly',
+  'unlimited' => 'Unlimited',
+  'days' => 'days',
+  'cpu' => 'CPU:',
+  'ram' => 'RAM:',
+  'storage' => 'Storage:',
+  'backup' => 'Backup(s)',
+  'database' => 'Database(s)',
+  'exstra_ports' => 'Extra Port(s)',
+
+  // Invoices
+  'invoice_date' => 'Invoice Date:',
+  'due_date' => 'Due Date:',
+  'invoice_price' => 'Price:',
+  'renew_plan' => 'Renew Plan',
+  'view_invoices' => 'View Invoices',
+  'request_cancellation' => 'Request Cancellation',
+  'extend_plan_info' => 'Completing payment will extend your plan, please click the "Pay" button below to extend.<br> After the pay button has been pressed, we will automatically reduce the corresponding amount from your balance. <br>',
+  'remove_plan_info' => 'Requesting Cancellation will delete the server, deleting all files without the possibility to restore. If the server is active you lose the money spent without the possibility of returning them!!!',
+
+
+  // Success
+  'plan_added_cart' => 'Added plan to cart',
+  'server_create_success' => 'Your server has successfully been created, please head to My Plans for more information.',
+  'stripe_status_url' => 'Status url: ',
+  'success' => 'Success',
+
+  // Errors
+  'err_remove_game' => 'Sorry. You must first remove all the plans belonging to this game.',
+  'err_plan_limit' => 'Sorry. You have reached a limit. You are only allowed to purchase the following amount: ',
+  'err_create_server' => 'There was an error whilst creating a new server.',
+  'err_user_balance' => 'There is not enough balance in your account to make this purchase.',
+  'err_plan_exist' => 'The plan has been removed from your cart.',
+  'err_plans_in_game' => 'There are no plans for this game.',
+  'error' => 'Error',
+];
